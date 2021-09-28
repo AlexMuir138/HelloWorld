@@ -7,7 +7,9 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hey you want how many?");
-            Console.ReadLine();
+            int answer = Convert.ToInt32(Console.ReadLine());
+        
+           
             
         }
     }
