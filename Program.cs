@@ -6,8 +6,12 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hey you want how many?");
-            int answer = Convert.ToInt32(Console.ReadLine());
+            double numberOne = 6.5;
+            double numberTwo = 4;
+            Console.WriteLine(Math.Pow(numberOne, numberTwo));
+            Console.WriteLine(Math.Ceiling(numberOne));
+            Console.WriteLine(Math.Max(numberOne, numberTwo));
+            
         
            
             
