@@ -26,6 +26,14 @@ namespace HelloWorld
       Console.WriteLine($"This scene is {storyLength} characters long.\n");
       Console.WriteLine($"The term we're looking for is {toFind} and is located at index {findMarchHare}.");
            
+           / Declare the variables
+      string beginning = "Don loved donuts. ";
+      string middle = "Don bought donuts. ";
+      string end = "Don ate donuts. The End.";
+      string story = beginning + middle + end;
+      // Concatenate the string and the variables
+      Console.WriteLine(story);
+      // Print the story to the console 
             
         }
     }
