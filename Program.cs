@@ -7,7 +7,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             double numberOne = 6.5;
-            double numberTwo = 4;
+            int numberTwo = 4;
             Console.WriteLine(Math.Pow(numberOne, numberTwo));
             Console.WriteLine(Math.Ceiling(numberOne));
             Console.WriteLine(Math.Max(numberOne, numberTwo));
@@ -23,7 +23,7 @@ namespace HelloWorld
       int findMarchHare = madTeaParty.IndexOf(toFind);
 
       Console.WriteLine(madTeaParty.Substring(findMarchHare));
-      Console.WriteLine($"This scene is {storyLength} long.\n");
+      Console.WriteLine($"This scene is {storyLength} characters long.\n");
       Console.WriteLine($"The term we're looking for is {toFind} and is located at index {findMarchHare}.");
            
             
