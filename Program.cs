@@ -53,6 +53,15 @@ namespace HelloWorld
             int passwordCheck = password.IndexOf("!");
             // Print results
             Console.WriteLine($"The user password is {password}. Its length is {passwordLength} and it receives a {passwordCheck} check.");
+
+            string name = "Farhad Hesam Abbasi";
+
+            // Get first letter
+            int firstPosition = name.IndexOf("F");
+            char firstLetter = name[firstPosition];
+            // Get last name
+            int charPosition = name.IndexOf("Abbasi");
+            string lastName = name.Substring(charPosition);
         }
     }
 }
