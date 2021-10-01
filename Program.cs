@@ -8,9 +8,13 @@ namespace HelloWorld
         {
             double numberOne = 6.5;
             int numberTwo = 4;
+            int numberThree = 120;
+            int numberFour = 230;
             Console.WriteLine(Math.Pow(numberOne, numberTwo));
             Console.WriteLine(Math.Ceiling(numberOne));
             Console.WriteLine(Math.Max(numberOne, numberTwo));
+            Console.WriteLine(Math.Pow(numberThree, numberOne));
+            Console.WriteLine(Math.Max(numberTwo, numberFour));
             
 
             string drink = "wine";
@@ -26,14 +30,6 @@ namespace HelloWorld
       Console.WriteLine($"This scene is {storyLength} characters long.\n");
       Console.WriteLine($"The term we're looking for is {toFind} and is located at index {findMarchHare}.");
            
-           / Declare the variables
-      string beginning = "Don loved donuts. ";
-      string middle = "Don bought donuts. ";
-      string end = "Don ate donuts. The End.";
-      string story = beginning + middle + end;
-      // Concatenate the string and the variables
-      Console.WriteLine(story);
-      // Print the story to the console 
             
         }
     }
