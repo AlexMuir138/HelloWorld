@@ -81,6 +81,15 @@ namespace HelloWorld
             bool tripDecision = yourNeeds && friendNeeds;
             Console.WriteLine(tripDecision);
 
+            //IF & ELSE
+            int people = 12;
+            string weather = "bad";
+            if(people <= 10 && weather == "nice"){
+                Console.WriteLine("SaladMart");
+            }else{
+                Console.WriteLine("Soup N Sandwich");
+      }
+
 
         }
     }
