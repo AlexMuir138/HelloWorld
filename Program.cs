@@ -121,6 +121,11 @@ namespace HelloWorld
                 default:
                 Console.WriteLine("Do whatever you want.");
                 break;
+
+                //Ternary
+                int pepperLength = 4;
+                string message = (pepperLength >= 3.5) ? "ready!" : "wait a little longer";
+                Console.WriteLine(message);
       }
 
 
