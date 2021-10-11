@@ -128,6 +128,11 @@ namespace HelloWorld
                 Console.WriteLine(message);
       }
 
+                //Methods Section
+
+                string msg = "Yabba dabba doo!";
+                two
+
 
         }
     }
