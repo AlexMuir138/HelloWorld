@@ -134,6 +134,10 @@ namespace HelloWorld
                 Math.Min(2,4);
                 Console.WriteLine(msg);
                 msg.Substring(0,1);
+                string designer = "Anders Hejlsberg";
+                int indexOfSpace = designer.IndexOf(" ");
+                string secondName = designer.Substring(indexOfSpace, 9);
+                Console.WriteLine(secondName);
 
 
         }
