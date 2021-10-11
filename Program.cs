@@ -131,7 +131,9 @@ namespace HelloWorld
                 //Methods Section
 
                 string msg = "Yabba dabba doo!";
-                two
+                Math.Min(2,4);
+                Console.WriteLine(msg);
+                msg.Substring(0,1);
 
 
         }
