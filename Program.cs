@@ -139,6 +139,18 @@ namespace HelloWorld
                 string secondName = designer.Substring(indexOfSpace, 9);
                 Console.WriteLine(secondName);
 
+                static void Main(string[] args)
+                {
+                VisitPlanets(4);
+                VisitPlanets(54);
+                VisitPlanets(69);
+                }
+                
+                static void VisitPlanets(int numberOfPlanets)
+                {
+                Console.WriteLine($"There are {numberOfPlanets} new planets...");
+                }
+
 
         }
     }
