@@ -139,6 +139,7 @@ namespace HelloWorld
                 string secondName = designer.Substring(indexOfSpace, 9);
                 Console.WriteLine(secondName);
 
+                //Arguments
                 static void Main(string[] args)
                 {
                 VisitPlanets(4);
@@ -149,6 +150,24 @@ namespace HelloWorld
                 static void VisitPlanets(int numberOfPlanets)
                 {
                 Console.WriteLine($"There are {numberOfPlanets} new planets...");
+                }
+
+                
+                static void Main(string[] args)
+                {
+                VisitPlanets();
+                VisitPlanets(numberOfPlanets: 2, name: ".");
+                }
+                
+                static void VisitPlanets(
+                string adjective = "brave",
+                string name = "Alex", 
+                int numberOfPlanets = 0,
+                double gForce = 4.2)
+                {
+                Console.WriteLine($"Welcome back, {adjective} {name}.");
+                Console.WriteLine($"You visited {numberOfPlanets} new planets...");
+                Console.WriteLine($"...while experiencing a g-force of {gForce} g!");
                 }
 
 
