@@ -187,6 +187,16 @@ namespace HelloWorld
                 }
 
 
+                //Returns
+                static void Main(string[] args)
+                {
+                Console.WriteLine(DecoratePlanet("Jupiter"));
+                }
+                static string DecoratePlanet(string name){
+                return $"Welcome to {name}";
+                }
+
+
         }
     }
 }
