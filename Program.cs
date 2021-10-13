@@ -152,7 +152,7 @@ namespace HelloWorld
                 Console.WriteLine($"There are {numberOfPlanets} new planets...");
                 }
 
-                
+
                 static void Main(string[] args)
                 {
                 VisitPlanets();
@@ -168,6 +168,22 @@ namespace HelloWorld
                 Console.WriteLine($"Welcome back, {adjective} {name}.");
                 Console.WriteLine($"You visited {numberOfPlanets} new planets...");
                 Console.WriteLine($"...while experiencing a g-force of {gForce} g!");
+                }
+
+                static void Main(string[] args)
+                {
+                NamePets(dog: "Max", cat: "Daisy");
+                NamePets(dog: "Max", cat: "Daisy", lizard: "Smaug");
+                NamePets();
+                }
+                static void NamePets(string dog, string cat ){
+                Console.WriteLine($"Your pet {dog} and {cat} will be joining our voyage across space!");
+                }
+                static void NamePets(string dog, string cat, string lizard ){
+                Console.WriteLine($"Your pet {dog}, {lizard}, and {cat} will be joining our voyage across space!");
+                }
+                static void NamePets(){
+                Console.WriteLine($"Aw, you have no spacefaring friends :(");
                 }
 
 
