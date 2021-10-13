@@ -205,7 +205,7 @@ namespace HelloWorld
                 Console.WriteLine("Then how many planets are there in the galaxy...?");
                 Console.WriteLine(CountThePlanets());
                 }
-                
+                // change vvv from int to string
                 static string DecoratePlanet(string planet)
                 {
                 return $"*..*..* Welcome to {planet} *..*..*";
@@ -214,9 +214,10 @@ namespace HelloWorld
                 static bool IsPlutoADwarf()
                 {
                 bool answer = true;
+                //return the answer to fix this one vvv
                 return answer;
                 }
-                
+                //change vvv from int to a string
                 static string CountThePlanets()
                 {
                 return "8 planets, usually";
