@@ -223,6 +223,17 @@ namespace HelloWorld
                 return "8 planets, usually";
                 }
 
+                //OUT METHOD
+                static void Main(string[] args)
+                {
+                string ageAsString = "102";
+                string nameAsString = "Granny";
+                int ageAsInt;
+                bool outcome;
+                outcome = Int32.TryParse(ageAsString, out ageAsInt);
+                Console.WriteLine(outcome);
+                Console.WriteLine(ageAsInt);
+                }    
 
         }
     }
