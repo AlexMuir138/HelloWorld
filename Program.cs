@@ -240,6 +240,15 @@ namespace HelloWorld
                 Console.WriteLine(outcome2);
                 Console.WriteLine(nameAsInt);
 
+                string[] summerStrut;
+
+                summerStrut = new string[] { "Juice", "Missing U", "Raspberry Beret", "New York Groove", "Make Me Feel", "Rebel Rebel", "Despacito", "Los Angeles" };
+      
+                int[] ratings = { 5, 4, 4, 3, 3, 5, 5, 4 };
+                int songPosition = Array.IndexOf(ratings, 3);
+                Console.WriteLine($"Song number {songPosition + 1} has three stars");
+                string tenLength = Array.Find(summerStrut, name => name.Length > 10 );
+
         }
     }
 }
